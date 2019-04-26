@@ -9,17 +9,19 @@ Created for the Yogstation Space Station 13 community, CentCom is a suite of too
 
 ### What this is intended to be
 
-A panel to manage different aspects of the SS13 server and community, including:
- - Users
- - Groups
- - Permissions
- - Books
- - Bans
- - Plus a whole bunch more planned
+ - A panel to manage different aspects of the SS13 server and community, including:
+   - Users
+   - Groups
+   - Permissions
+   - Books
+   - Bans
+   - Plus a whole bunch more planned
+ - Community and codebase agnostic (we want anybody to be able to use it)
+ - Built from the ground up to be configurable and modular
 
-### What this is *not* intended to be
- - Running BYOND Servers - All deployment and management of SS13 code is left up to the implementer
- - Managing code, issues, player requests, forums, etc. - there are other tools for much of this, and we are not looking to recreate the wheel
+### What this is *not* intended to do
+ - Run BYOND Servers - All deployment and management of SS13 code is left up to the implementer
+ - Manage code, issues, player requests, forums, etc. - there are other tools for much of this, and we are not looking to recreate the wheel
 
 ## FAQ
 
@@ -35,7 +37,7 @@ Both repositories (will eventually) contain their own build and deployment instr
 
 **How much work will it take to use this?  How will I integrate things like bans with my own server?**
 
-In line with one goal of this service to be "community and codebase agnostic", there is a necessity to be able to work with any codebase to integrate services like bans and server group permissions.  Some current options for this include:
+In line with a goal of this service to be "community and codebase agnostic", there is a necessity to be able to work with any codebase to integrate services like bans and server group permissions.  Some current options for this include:
  - Migrate the existing server db to the CentCom schema - modifying your codebase's schema to match, and use, the CentCom database, will allow immediate integration.  This will require moderate knowledge of SQL to modify your codebase to match the existing schema.
  - Create views to merge your existing schema with CentCom's - then, use the views in your SS13 database configuration (rather than the original tables)
  - Create cron jobs to merge the CentCom and server information - this option works best if you plan to keep the CentCom and server databases on different dbs or servers.  I plan on eventually providing examples of how this would work, and potentially adding it to [centcom-core](https://github.com/centcom-ss13/centcom-core)

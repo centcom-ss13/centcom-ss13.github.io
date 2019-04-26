@@ -15,7 +15,13 @@ Created for the Yogstation Space Station 13 community, CentCom is a suite of too
    - Permissions
    - Books
    - Bans
-   - Plus a whole bunch more planned
+   - Community configuration
+ - With eventual plans to include:
+   - Admin stat tracking (including an away tracker)
+   - A customizable splash page
+   - User themes
+   - Complete audit logs
+   - Module visibility customization
  - Community and codebase agnostic (we want anybody to be able to use it)
  - Built from the ground up to be configurable and modular
 

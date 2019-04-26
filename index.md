@@ -1,7 +1,7 @@
 # CentCom
 ### *The SS13 Management Service*
 
-[Demo Site](http://centcom.ddmers.com) - [Documentation](https://centcom-ss13.github.io) - [Service Homepage](https://centcom.services) (coming soon!)
+[Demo Site](http://centcom.ddmers.com) - [Github Organization](https://github.com/centcom-ss13) - [Service Homepage](https://centcom.services) (coming soon!)
 
 ## Goal
 

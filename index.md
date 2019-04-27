@@ -53,7 +53,7 @@ Lastly, this service does not *require* any SS13 server interactions, and many f
 
 **Are you planning to offer any paid services or hosting of your own?**
 
-No.
+No.  I am happy to help *you* set up a server with all of the assets though!
 
 **This all seems really complicated.**
 

@@ -16,9 +16,15 @@ Created for the Yogstation Space Station 13 community, CentCom is a suite of too
    - Books
    - Bans
    - Community configuration
+   - Donations
+   - Jobs list (for job bans)
  - With eventual plans to include:
-   - Admin stat tracking (including an away tracker)
+   - Admin stat tracking
+   - Player stat tracking
+   - Player lookups, with quick accessibility on the ban panel
    - A customizable splash page
+   - Round statistics
+   - Server status
    - User themes
    - Complete audit logs
    - Module visibility customization
@@ -47,7 +53,6 @@ In line with a goal of this service to be "community and codebase agnostic", the
  - Migrate the existing server db to the CentCom schema - modifying your codebase's schema to match, and use, the CentCom database, will allow immediate integration.  This will require moderate knowledge of SQL to modify your codebase to match the existing schema.
  - Create views to merge your existing schema with CentCom's - then, use the views in your SS13 database configuration (rather than the original tables)
  - Create cron jobs to merge the CentCom and server information - this option works best if you plan to keep the CentCom and server databases on different dbs or servers.  I plan on eventually providing examples of how this would work, and potentially adding it to [centcom-core](https://github.com/centcom-ss13/centcom-core)
-
 
 Lastly, this service does not *require* any SS13 server interactions, and many features can be used without it.  Please contact me for any questions, concerns, or help with migration - I'm happy to assist.
 
